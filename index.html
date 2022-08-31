@@ -32,8 +32,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#menu" class="nav-link">每日菜單</a></li>
                         <li class="nav-item"><a href="#goods" class="nav-link">商品介紹</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">每日菜單</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">宅配服務</a></li>
                     </ul>
                 </div>
@@ -44,9 +44,37 @@
                 用原始天然的原物料<br>
                 一起享受社區午後的美好</h2>
         </div>
-        <div class="goods" id="goods">
+        <!-- 每日菜單 -->
+        <div id="menu">
+            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;每日菜單&nbsp;<i class="fa-solid fa-wheat-awn"></i></h3>
+        <div class="dailymenu">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-line"></i>Line</a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            </ul>
+        </div>
+        <!-- 商品介紹 -->
+        <div id="goods">
             <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;商品介紹&nbsp;<i class="fa-solid fa-wheat-awn"></i></h3>
             <p class="warning">（每日出爐麵包不固定，實際品項請參照群組發布內容。）</p>
+            <!-- 吐司 -->
+            <div class="bread-type">
+                <h5>吐司系列&nbsp;</h5>
+                <div class="typeline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/milktoast.jpeg" class="card-img-top" alt="牛奶吐司">
+                        <div class="card-body">
+                            <h4 class="card-title">牛奶土司</h4>
+                        <p class="card-text">使用鳥越法印，能讓麵團的吸水性提升，更濕潤，做出來的麵包體柔軟又Q彈
+                            採用魯邦種製作，讓麵團延緩老化，隔天吃起來也不會太乾～</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- 鹽可頌 -->
             <div class="bread-type">
                 <h5>鹽可頌系列&nbsp;</h5>
@@ -94,18 +122,7 @@
                 <div class="typeline"></div>
                 </div>
                 <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="card">
-                        <img src="images/french.jpeg" class="card-img-top" alt="法國長棍">
-                        <div class="card-body">
-                            <h4 class="card-title">法國長棍</h4>
-                            <p class="card-text">酥脆的外皮，內裏濕軟有嚼勁
-                            ，咀嚼在口中散發濃濃的麥香、越嚼越香
-                            ，材料使用法國VIRON T55麵粉、水、酵母
-                            ，最天然的食材，無其他添加，既健康又無負擔。</p>
-                        </div>
-                    </div>
-                </div>
+                
                 
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
@@ -119,16 +136,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="card">
-                        <img src="images/milktoast.jpeg" class="card-img-top" alt="牛奶吐司">
-                        <div class="card-body">
-                            <h4 class="card-title">牛奶土司</h4>
-                        <p class="card-text">使用鳥越法印，能讓麵團的吸水性提升，更濕潤，做出來的麵包體柔軟又Q彈
-                            採用魯邦種製作，讓麵團延緩老化，隔天吃起來也不會太乾～</p>
-                        </div>
-                    </div>
+                <!-- 冰麵包 -->
+                <div class="bread-type">
+                    <h5>冰麵包&nbsp;</h5>
+                    <div class="typeline"></div>
                 </div>
+                <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
                         <img src="images/creambread.jpeg" class="card-img-top" alt="維也納麵包">
@@ -143,8 +156,28 @@
                     </div>
                 </div>
             </div>
+                <!-- 歐式麵包 -->
+                <div class="bread-type">
+                    <h5>歐式麵包&nbsp;</h5>
+                    <div class="typeline"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img src="images/french.jpeg" class="card-img-top" alt="法國長棍">
+                            <div class="card-body">
+                                <h4 class="card-title">Viron法棍</h4>
+                                <p class="card-text">酥脆的外皮，內裏濕軟有嚼勁
+                                ，咀嚼在口中散發濃濃的麥香、越嚼越香
+                                ，材料使用法國VIRON T55麵粉、水、酵母
+                                ，最天然的食材，無其他添加，既健康又無負擔。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
     </div>
     <!-- icon -->
     <script src="https://kit.fontawesome.com/71d797aa33.js" crossorigin="anonymous"></script>
