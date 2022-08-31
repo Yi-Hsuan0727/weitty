@@ -52,7 +52,7 @@ table {
     max-width: 1080px;
     padding-top: 30px;
 }
-p,h4,h5,a{
+p,h4,a{
  font-family: "微軟正黑體";
  color:rgb(79, 36, 36);
 }
@@ -102,7 +102,41 @@ h2{
 	/* vertical-align:-webkit-baseline-middle; */
 	padding-top: 40px;
 }
+/* dailymenu */
+.dailymenu{
+	background: rgba(79, 36, 36,0.3);
+	padding: 30px;
+	text-align: center;
+}
+.dailymenu i{
+	font-size: 90px;
+	display: block;
+	margin: 25px 0 10px 0;
+}
+.dailymenu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+.dailymenu a:hover{
+	color: #fff;
+}
+/*newitem*/
+#newitem{
+	padding: 0 30px;
+}
+#newitem img{
+	height: 300px;
+	object-fit: cover;
+}
+#newitem p{
+	color: #fff;
+}
 /*goods*/
+#goods{
+	margin: 0 30px;
+}
 .warning{
 	font-size: 16px;
 }
@@ -130,6 +164,7 @@ h4{
 	font-size: 20px;
 }
 h5{
+	font-family: 'Kiwi Maru', serif;
 	font-size: 24px;
 	margin: 16px 0;
 	white-space: nowrap;
@@ -145,7 +180,12 @@ h5{
 	height: 2px;
 	background:linear-gradient(to left,rgb(79, 36, 36),white);
 }
-@media (max-width:560px) {
+.footer{
+	background: rgba(79, 36, 36,0.3);
+	height: 300px;
+	margin-top: 30px;
+}
+@media (max-width:630px) {
 	
 	.wrap{
 		padding-top: 0;
@@ -156,11 +196,25 @@ h5{
 	h2{
 		font-size: 18px;
 	}
+	h3{
+		font-size: 20px;
+	}
 	h5{
 		font-size: 16px;
 	}
 	.warning{
 		font-size: 10px;
+	}
+	.dailymenu{
+		padding:30px  15px;
+		font-size: 12px;
+	}
+	.dailymenu i{
+		font-size: 30px;
+		margin: 20px 0 5px 0;
+	}
+	.dailymenu a{
+		font-size: 12px;
 	}
 	#goods{
 		margin: 0 15px;

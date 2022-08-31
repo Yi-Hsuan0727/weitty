@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,15 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kiwi+Maru:wght@300&display=swap"
+        rel="stylesheet">
     <title>崴ㄆㄤˋ麵包</title>
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="wrap">
         <!-- nav bar -->
@@ -27,14 +31,16 @@
                     </a>
                     崴ㄆㄤˋ麵包
                 </h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a href="#menu" class="nav-link">每日菜單</a></li>
+                        <li class="nav-item"><a href="#newitem" class="nav-link">最新商品</a></li>
                         <li class="nav-item"><a href="#goods" class="nav-link">商品介紹</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">宅配服務</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,18 +52,65 @@
         </div>
         <!-- 每日菜單 -->
         <div id="menu">
-            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;每日菜單&nbsp;<i class="fa-solid fa-wheat-awn"></i></h3>
-        <div class="dailymenu">
-            <p>每日菜單皆會發佈在各社群平台，歡迎追蹤掌握最新商品。</p>
-            <ul>
-                <li><a href=""><i class="fa-brands fa-line"></i>Line</a></li>
-                <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-            </ul>
+            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;每日菜單&nbsp;<i
+                    class="fa-solid fa-wheat-awn"></i></h3>
+            <div class="dailymenu">
+                <p>每日菜單皆會發佈在各社群平台，歡迎追蹤掌握最新商品。</p>
+                <ul>
+                    <li><a href="https://line.me/ti/g/UK5N7Nuatd" target="_blank"><i class="fa-brands fa-line"></i>Line</a></li>
+                    <li><a href="https://www.facebook.com/weibackery" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/wei_backery1219/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="https://myship.7-11.com.tw/general/detail/GM2206236943443" target="_blank"><i class="fa-solid fa-cart-shopping"></i>7-11賣貨便</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--最新產品-->
+        <div id="newitem">
+            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;最新商品&nbsp;<i
+                class="fa-solid fa-wheat-awn"></i></h3>
+                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/originalmooncake.jpeg" class="d-block w-100" alt="經典蛋黃酥">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>經典蛋黃酥</h5>
+                          <p>（法國VIRON T55麵粉.紅土蛋黃.德國發酵無水奶油）</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/mochamooncake.jpeg" class="d-block w-100" alt="抹茶蛋黃酥">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>抹茶蛋黃酥</h5>
+                          <p>（法國VIRON T55麵粉.紅土蛋黃.德國無水發酵奶油.日本靜岡抹茶粉）</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mooncake.jpeg" class="d-block w-100" alt="綜合禮盒">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>綜合禮盒</h5>
+                          <p>（法國VIRON T55麵粉.紅土蛋黃.德國無水發酵奶油）<br>（法國VIRON T55麵粉.紅土蛋黃.德國無水發酵奶油.日本靜岡抹茶粉）</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
         </div>
         <!-- 商品介紹 -->
         <div id="goods">
-            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;商品介紹&nbsp;<i class="fa-solid fa-wheat-awn"></i></h3>
+            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;商品介紹&nbsp;<i
+                    class="fa-solid fa-wheat-awn"></i></h3>
             <p class="warning">（每日出爐麵包不固定，實際品項請參照群組發布內容。）</p>
             <!-- 吐司 -->
             <div class="bread-type">
@@ -65,13 +118,13 @@
                 <div class="typeline"></div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/milktoast.jpeg" class="card-img-top" alt="牛奶吐司">
                         <div class="card-body">
                             <h4 class="card-title">牛奶土司</h4>
-                        <p class="card-text">使用鳥越法印，能讓麵團的吸水性提升，更濕潤，做出來的麵包體柔軟又Q彈
-                            採用魯邦種製作，讓麵團延緩老化，隔天吃起來也不會太乾～</p>
+                            <p class="card-text">使用鳥越法印，能讓麵團的吸水性提升，更濕潤，做出來的麵包體柔軟又Q彈
+                                採用魯邦種製作，讓麵團延緩老化，隔天吃起來也不會太乾～</p>
                         </div>
                     </div>
                 </div>
@@ -82,106 +135,111 @@
                 <div class="typeline"></div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/salty.jpeg" class="card-img-top" alt="鹽可頌">
                         <div class="card-body">
                             <h4 class="card-title">招牌鹽可頌</h4>
                             <p class="card-text">捲入法國Grand Fermage發酵奶油
-                            ，烘烤過後半融化的奶油配上酥脆的麵包體
-                            ，頂部再撒上法國guerande鹽之花
-                            ，更能襯托出發酵奶油的獨特香氣。</p>
+                                ，烘烤過後半融化的奶油配上酥脆的麵包體
+                                ，頂部再撒上法國guerande鹽之花
+                                ，更能襯托出發酵奶油的獨特香氣。</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/purplesweetpotato.jpeg" class="card-img-top" alt="紫薯地瓜捲">
                         <div class="card-body">
                             <h4 class="card-title">紫薯地瓜捲</h4>
-                        <p class="card-text">使用燙麵跟魯邦種
-                            ，麵粉使用鳥越法印
-                            ，內餡採用蜜地瓜丁。</p>
+                            <p class="card-text">使用燙麵跟魯邦種
+                                ，麵粉使用鳥越法印
+                                ，內餡採用蜜地瓜丁。</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/chocolate.jpeg" class="card-img-top" alt="可可可頌捲">
                         <div class="card-body">
                             <h4 class="card-title">可可可頌捲</h4>
-                        <p class="card-text">法國苦甜巧克力加熱後變成流心狀態，
-                            搭配老闆嚼勁的鹽可頌，
-                            簡直就是絕配。</p>
+                            <p class="card-text">法國苦甜巧克力加熱後變成流心狀態，
+                                搭配老闆嚼勁的鹽可頌，
+                                簡直就是絕配。</p>
                         </div>
                     </div>
                 </div>
             </div>
-                <!-- 經典系列 -->
-                <div class="bread-type">
+            <!-- 經典系列 -->
+            <div class="bread-type">
                 <h5>經典系列&nbsp;</h5>
                 <div class="typeline"></div>
-                </div>
+            </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/fluffymeat.jpeg" class="card-img-top" alt="肉鬆麵包">
                         <div class="card-body">
                             <h4 class="card-title">純肉鬆麵包</h4>
-                        <p class="card-text">肉鬆麵包可是我們家的招牌，
-                            純肉沒有添加豆粉的肉鬆，
-                            吃起來不會ㄏㄨㄏㄨ且有嚼勁，
-                            一吃就愛上。</p>
+                            <p class="card-text">肉鬆麵包可是我們家的招牌，
+                                純肉沒有添加豆粉的肉鬆，
+                                吃起來不會ㄏㄨㄏㄨ且有嚼勁，
+                                一吃就愛上。</p>
                         </div>
                     </div>
                 </div>
             </div>
-                <!-- 冰麵包 -->
-                <div class="bread-type">
-                    <h5>冰麵包&nbsp;</h5>
-                    <div class="typeline"></div>
-                </div>
+            <!-- 冰麵包 -->
+            <div class="bread-type">
+                <h5>冰麵包&nbsp;</h5>
+                <div class="typeline"></div>
+            </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="images/creambread.jpeg" class="card-img-top" alt="維也納麵包">
                         <div class="card-body">
                             <h4 class="card-title">維也納麵包</h4>
-                        <p class="card-text">冰涼口感的維也納麵包，
-                            不油不膩的內餡，
-                            採用總統發酵奶油加上北海道煉乳，
-                            搭配鬆軟的軟法麵包，
-                            炎熱的天氣一口接著一口。</p>
+                            <p class="card-text">冰涼口感的維也納麵包，
+                                不油不膩的內餡，
+                                採用總統發酵奶油加上北海道煉乳，
+                                搭配鬆軟的軟法麵包，
+                                炎熱的天氣一口接著一口。</p>
                         </div>
                     </div>
                 </div>
             </div>
-                <!-- 歐式麵包 -->
-                <div class="bread-type">
-                    <h5>歐式麵包&nbsp;</h5>
-                    <div class="typeline"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card">
-                            <img src="images/french.jpeg" class="card-img-top" alt="法國長棍">
-                            <div class="card-body">
-                                <h4 class="card-title">Viron法棍</h4>
-                                <p class="card-text">酥脆的外皮，內裏濕軟有嚼勁
+            <!-- 歐式麵包 -->
+            <div class="bread-type">
+                <h5>歐式麵包&nbsp;</h5>
+                <div class="typeline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="images/french.jpeg" class="card-img-top" alt="法國長棍">
+                        <div class="card-body">
+                            <h4 class="card-title">Viron法棍</h4>
+                            <p class="card-text">酥脆的外皮，內裏濕軟有嚼勁
                                 ，咀嚼在口中散發濃濃的麥香、越嚼越香
                                 ，材料使用法國VIRON T55麵粉、水、酵母
                                 ，最天然的食材，無其他添加，既健康又無負擔。</p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        <!-- footer -->
+        <div class="footer">
+            
+        </div>
     </div>
     <!-- icon -->
     <script src="https://kit.fontawesome.com/71d797aa33.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
