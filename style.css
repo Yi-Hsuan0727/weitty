@@ -95,6 +95,7 @@ h2{
 	line-height:2;
 	font-size: 24px;
 	writing-mode: vertical-lr;
+	text-align: left;
 	padding-top: 40px;
 }
 /*goods*/
@@ -103,6 +104,7 @@ h2{
 }
 .card{
 	margin-bottom: 16px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-text{
 	line-height: 1.5;
@@ -117,4 +119,21 @@ h3{
 h4{
 	font-weight: bold;
 	font-size: 20px;
+}
+@media (max-width:480px) {
+	.card{
+		display: flex;
+		flex-direction: row;
+	}
+	.card img{
+		width: 150px;
+		height: 190px;
+		object-fit: cover;
+	}
+	.card h4{
+		font-size: 18px;
+	}
+	.card p{
+		font-size: 12px;
+	}
 }
