@@ -6,35 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/icon-02.png">
     <link rel="apple-touch-icon" href="images/icon-02.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
     <title>崴ㄆㄤˋ麵包</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrap">
+        <!-- nav bar -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fff;">
-            <div class="container-fluid nav-flex">
+            <div class="container-fluid">
                 <h1>
                     <a href="index.html" class="navbar-brand">
                         <img src="images/logo-01.png" alt="崴ㄆㄤˋ麵包" width="200px" height="60px">
                     </a>
                     崴ㄆㄤˋ麵包
                 </h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">商品介紹</a>
-                        <a class="nav-link" href="#">每日菜單</a>
-                        <a class="nav-link" href="#">宅配服務</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#goods" class="nav-link">商品介紹</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">每日菜單</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">宅配服務</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="top">
+            <h2>左營大路旁的麵包小攤<br>
+                用原始天然的原物料<br>
+                一起享受社區午後的美好</h2>
+        </div>
+        <div class="goods" id="goods">
+            <h3><i class="fa-solid fa-wheat-awn fa-flip-horizontal"></i>&nbsp;商品介紹&nbsp;<i class="fa-solid fa-wheat-awn"></i></h3>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/salty.jpeg" class="card-img-top" alt="鹽可頌">
+                        <div class="card-body">
+                            <h4 class="card-title">招牌鹽可頌</h4>
+                            <p class="card-text">捲入的是法國Grand Fermage發酵奶油
+                            ，烘烤過後半融化的奶油配上酥脆的麵包體
+                            ，頂部再撒上法國guerande鹽之花
+                            ，更能襯托出發酵奶油的獨特香氣
+                            ，一口接著一口越來越涮嘴。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/french.jpeg" class="card-img-top" alt="法國長棍">
+                        <div class="card-body">
+                            <h4 class="card-title">法國長棍</h4>
+                            <p class="card-text">酥脆的外皮，內裏濕軟有嚼勁
+                            ，咀嚼在口中散發濃濃的麥香、越嚼越香
+                            ，材料使用法國VIRON T55麵粉、水、酵母
+                            ，最天然的食材，無其他添加，既健康又無負擔。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/purplesweetpotato.jpeg" class="card-img-top" alt="紫薯地瓜捲">
+                        <div class="card-body">
+                            <h4 class="card-title">紫薯地瓜捲</h4>
+                        <p class="card-text">使用燙麵跟魯邦種
+                            ，麵粉使用鳥越法印
+                            ，內餡採用蜜地瓜丁。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/fluffymeat.jpeg" class="card-img-top" alt="肉鬆麵包">
+                        <div class="card-body">
+                            <h4 class="card-title">純肉鬆麵包</h4>
+                        <p class="card-text">肉鬆麵包可是我們家的招牌，
+                            純肉沒有添加豆粉的肉鬆，
+                            吃起來不會ㄏㄨㄏㄨ且有嚼勁，
+                            一吃就愛上。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/milktoast.jpeg" class="card-img-top" alt="牛奶吐司">
+                        <div class="card-body">
+                            <h4 class="card-title">牛奶土司</h4>
+                        <p class="card-text">使用鳥越法印，能讓麵團的吸水性提升，更濕潤，做出來的麵包體柔軟又Q彈
+                            採用魯邦種製作，讓麵團延緩老化，隔天吃起來也不會太乾～</p>
+                        </div>
                     </div>
                 </div>
             </div>
-           
-        </nav>
+        </div>
     </div>
-    
-    
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/71d797aa33.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
