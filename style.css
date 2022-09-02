@@ -182,8 +182,16 @@ h5{
 }
 .footer{
 	background: rgba(79, 36, 36,0.3);
-	height: 300px;
 	margin-top: 30px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.footer i{
+	font-size: 18px;
+}
+.footer a{
+	margin-bottom: 15px;
 }
 @media (max-width:630px) {
 	
@@ -200,7 +208,7 @@ h5{
 		font-size: 20px;
 	}
 	h5{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.warning{
 		font-size: 10px;
@@ -219,6 +227,9 @@ h5{
 	#goods{
 		margin: 0 15px;
 	}
+	.carousel-caption p{
+		display: none;
+	}
 	.card{
 		display: flex;
 		flex-direction: row;
@@ -232,6 +243,12 @@ h5{
 		font-size: 14px;
 	}
 	.card p{
-		font-size: 10px;
+		font-size: 11px;
+	}
+	.footer a{
+		font-size: 12px;
+	}
+	.footer i{
+		font-size: 12px;
 	}
 }
