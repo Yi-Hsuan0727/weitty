@@ -98,9 +98,7 @@ h2{
 	line-height:2;
 	font-size: 1.5rem;
 	writing-mode: vertical-lr;
-	/* vertical-align:-webkit-baseline-middle; */
 	padding-top: 40px;
-	animation: appear 2.5s ease-out;
 }
 /* dailymenu */
 .dailymenu{
@@ -144,7 +142,6 @@ h2{
 .card{
 	margin-bottom: 16px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	/* animation: fadeIn 4s linear; */
 }
 .card-text{
 	line-height: 1.5;
