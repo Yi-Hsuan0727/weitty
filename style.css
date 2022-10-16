@@ -157,7 +157,6 @@ h3{
 	font-size: 30px;
 	margin: 30px 0;
 	color: rgb(79, 36, 36);
-	animation: h3appear 1.5s ease-in;
 }
 h4{
 	font-weight: bold;
@@ -263,21 +262,4 @@ h5{
 	.copyright{
 		font-size: 14px;
 	}
-}
-@keyframes fadeIn{
-	0%{opacity: 0;
-	left: -100%;}
-	100%{opacity: 1;
-	left: 0%;}
-}
-@keyframes appear{
-	0%{opacity: 0;}
-	100%{opacity: 1;}
-}
-@keyframes h3appear{
-	from { 
-		opacity: 0;
-		transform: translate3d(0, -50px, 0);}
-    to {opacity: 1; 
-		transform: translate3d(0, 0, 0);}
 }
