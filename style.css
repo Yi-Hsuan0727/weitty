@@ -82,7 +82,7 @@ h1 {
 	height: 400px;
 	background-image: url(images/275196405_130392216175907_5489500955599530248_n.jpg);
 }
-.top::before {
+.top::before { 
     content: "";
     position: absolute;
     top: 0px;
